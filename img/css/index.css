@@ -1,0 +1,40 @@
+/*
+le signe "*" correspond a selectioner toutes les class
+*/
+* {
+    /* border: 1px solide #CCC; */
+}
+
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+ul.cards li{
+    list-style: none;
+}
+.cards{
+    display: flex
+    
+}
+/*table*/
+.matable{
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(8, 4, 221);
+}
+.matable .active{
+    color: aqua;
+}
+.matable th{
+font-size: 2rem;
+}
+
+.matable th{
+    border: 1px solid red
+    }
+
+.matable td{
+    text-align:center;
+    background-color: crimson;
+}
